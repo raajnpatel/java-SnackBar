@@ -76,7 +76,8 @@ public class Snack {
         String rtnStr = "id: " + id + "\n" +
                 "name: " + name + "\n" +
                 "quantity: " + quantity + "\n" +
-                "cost: " + cost + "\n" +
+                "cost: $" + cost + "\n" +
+                "total cost: $" + cost * quantity + "\n" +
                 "Vending Machine id: " + vendingMachineId + "\n";
         return rtnStr;
     }

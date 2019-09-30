@@ -45,7 +45,7 @@ public class Customers {
     {
         String rtnStr = "id: " + id + "\n" +
                         "name: " + name + "\n" +
-                        "cash: " + cash + "\n";
+                        "cash: $" + cash + "\n";
         return rtnStr;
     }
 }
